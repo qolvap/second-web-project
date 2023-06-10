@@ -1,0 +1,115 @@
+
+.inspo--banner--container{
+        display: flex;
+        align-items: center;
+        height: 52rem;
+        width: 100%;
+        justify-content: space-between;
+        overflow: hidden;   
+}
+
+.text--column--one{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    background-color:  #f0ece2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 11rem;
+    text-align: start;
+}
+
+.banner--text--one{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner--btn--inspo{
+    background-color: #596e79;
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    transition: all .15s;
+    text-decoration: none;
+    padding-top: 1rem;
+}
+
+.banner--btn--inspo:hover{
+    background-color: whitesmoke;
+    border: 2px solid #000;
+    color: #596e79;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+}
+
+.img--column--one{
+    width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.img--column--two{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text--column--two{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    background-color:  #dfd3c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 11rem;
+    text-align: start;
+}
+
+.img--column--three{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text--column--three{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    background-color: #c7b198;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 11rem;
+    text-align: start;
+}
+
+.img--column--four{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text--column--four{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    background-color: #596e79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 11rem;
+    text-align: start;
+    color: whitesmoke;
+}
+

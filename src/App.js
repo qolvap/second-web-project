@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
 
-function App() {
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Inspiration from "./components/Inspiration";
+import Categories from "./components/Categories";
+import Careers from "./components/Careers";
+import Footer from "./components/Footer";
+import ProductPage from "./components/ProductPage";
+
+
+function HomePage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home />
     </div>
   );
 }
 
-export default App;
+  export default function App() {
+    return (
+      <Router>
+        <div className="App">
+          <Navbar />
+          {/* ---- BODY START ----- */}
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/Inspiration" element={<Inspiration />} exact />
+            <Route path="/Categories" element={<Categories />} exact />
+            <Route path="/Careers" element={<Careers />} exact />
+           
+            <Route path="/product/:id" component={ProductPage} />
+          </Routes>
+        {/* ---- BODY END ----- */}
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+

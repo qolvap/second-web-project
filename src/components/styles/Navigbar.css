@@ -1,0 +1,34 @@
+nav {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    margin: 0 auto;
+    padding: 20px 36px;
+    gap: 2rem;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  }
+
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style-type: none;
+  }
+
+  nav a:hover{
+    color:#a7bcb9;
+  }
+
+ 
