@@ -1,10 +1,12 @@
 import React from "react";
 import categoriesItems from "./categoriesItems";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./styles/Product.css"
 
 
 function ProductPage() {
+  let {id} = useParams()
+  const product = categoriesItems.filter(item => item.id === id)
   return (
     <>
       <div className="prduct--container">
@@ -12,15 +14,12 @@ function ProductPage() {
           <div className="products--items">
             {categoriesItems.map((item) => (
               <div key={item.id} className="productCard">
-                <Link
-                  onClick={() =>  window.top(0, 0)}
-                  to={`/categories/product/${item.id}`}
-                >
+                <Link to={`/categories/product/${item.id}`}>
                   <div className="product-header">
-                    <img src={item.title} alt="product1" />
+                    <h2>{item.title}</h2>
                   </div>
                   <div className="product-details">
-                    <p>{item.description}</p>
+                    <p>{item.type}</p>
                     <p className="item-price">{item.price}$</p>
                   </div>
                 </Link>

@@ -31,7 +31,8 @@ function HomePage() {
             <Route path="/Categories" element={<Categories />} exact />
             <Route path="/Careers" element={<Careers />} exact />
            
-            <Route path="/product/:id" component={ProductPage} />
+            <Route path="/product/:id" component={<ProductPage />} />
+
           </Routes>
         {/* ---- BODY END ----- */}
         <Footer />
