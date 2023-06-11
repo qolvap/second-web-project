@@ -1,5 +1,6 @@
 import React from "react";
 import popularItems from "./popularItems";
+import categoriesItems from "./categoriesItems";
 import { Link } from "react-router-dom";
 import "./styles/Homepage.css";
 
@@ -17,21 +18,21 @@ function Home() {
             </Link>
           </div>
           <div className="home--container--grid--two">
-          <Link to="/Categories">
+          <Link to="/Categories/Street">
             <div className="content-card">
               <p className="card--description">Street</p>
             </div>
             </Link>
           </div>
           <div className="home--container--grid--three">
-          <Link to="/Categories">
+          <Link to="/Categories/Nature">
             <div className="content-card">
               <p className="card--description">Nature</p>
             </div>
             </Link>
           </div>
           <div className="home--container--grid--four">
-          <Link to="/Categories">
+          <Link to="/Categories/Architect">
             <div className="content-card">
               <p className="card--description">Architect</p>
             </div>
@@ -64,7 +65,8 @@ function Home() {
           <div className="popular--items--list">
             <div className="popular--items">
                 {popularItems.map((item) => (
-                  <div key={item.id} className="popular--item">
+                  <Link key={item.id} to={`/product/${item.id}`} >
+                  <div  className="popular--item">
                     <div className="product-header">
                       <span>{item.name}</span>
                     </div>
@@ -72,6 +74,7 @@ function Home() {
                       <p className="item-price">{item.price}</p>
                   </div>
                 </div>
+                </Link>
           ))}
           </div>
           </div>

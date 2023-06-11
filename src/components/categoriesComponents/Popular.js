@@ -1,12 +1,20 @@
-import popularityItem from "../popularityItem";
-import Footer from "../Footer";
+import React from "react";
+import PopularityItem from "./PopularityItem";
+
 
 
 function Popular(){
     return (
         <>
-        <popularityItem/>
-        <Footer/>
+        <div className="categories--section">
+      <div className="categories--head">
+        <a className="cat--back--to--home--page" href="/">
+          Home
+        </a>
+        <h1 className="categories--title">Popular</h1>
+      </div>
+      <PopularityItem/>
+      </div>
         </>
     )
 }

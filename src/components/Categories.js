@@ -29,11 +29,11 @@ function Categories() {
       </div>
 
       <div className="filter--btns">
-      <a href="/Categories" >
-      <button className="filter--btn">
+
+          <a className="filter--btn" onClick={() => handleClick("All")}>
           All
-          </button>
-          </a>
+        </a>
+
         <a className="filter--btn" onClick={() => handleClick("pupularity", true)}>
           Popular
         </a>

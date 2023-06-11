@@ -1,15 +1,19 @@
+import React from "react";
 import AbstractItem from "./AbstractItem";
-import categoriesItems from "../categoriesItems";
-import Footer from "../Footer";
+
 
 function Abstract() {
-
-  const filteredItems = categoriesItems.filter((item) => item.type === "abstract");
-
   return (
     <>
+    <div className="categories--section">
+      <div className="categories--head">
+        <a className="cat--back--to--home--page" href="/">
+          Home
+        </a>
+        <h1 className="categories--title">Abstract</h1>
+      </div>
       <AbstractItem />
-      <Footer />
+      </div>
     </>
   );
 }

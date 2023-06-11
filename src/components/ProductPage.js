@@ -6,25 +6,29 @@ import "./styles/Product.css"
 
 function ProductPage() {
   let {id} = useParams()
-  const product = categoriesItems.filter(item => item.id === id)
+  const product = categoriesItems.find(item => item.id === parseInt(id));
+
+
   return (
     <>
-      <div className="prduct--container">
+      <div className="product--container">
         <div className="container">
           <div className="products--items">
-            {categoriesItems.map((item) => (
-              <div key={item.id} className="productCard">
-                <Link to={`/categories/product/${item.id}`}>
-                  <div className="product-header">
-                    <h2>{item.title}</h2>
+                {product && (
+                  <div key={product.id} className="productCard">
+                    <div className="product--left--side">
+                    <div className="product-header">
+                      <h2>{product.name}</h2>
+                   </div>
+                   </div>
+                   <div className="product--right--side">
+                     <div className="product-details">
+                       <p>{product.type}</p>
+                       <p className="item-price">{product.price}</p>
+                     </div>
+                     </div>
                   </div>
-                  <div className="product-details">
-                    <p>{item.type}</p>
-                    <p className="item-price">{item.price}$</p>
-                  </div>
-                </Link>
-              </div>
-            ))}
+                )}
           </div>
         </div>
       </div>

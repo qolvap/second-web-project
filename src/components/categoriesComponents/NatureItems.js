@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import categoriesItems from "../categoriesItems";
 
+function NatureItems() {
+  const filteredItems = categoriesItems.filter((item) => item.type === "nature");
 
-function PopularityItem(){ 
-    const filteredItems = categoriesItems.filter((item) => item.pupularity === true)
-    return (
-      <>
-       <div className="all--products">
+  return (
+    <>
+      <div className="all--products">
         <div className="products--items--list">
           <div className="all--items">
             {filteredItems.map((item) => (
@@ -27,6 +27,7 @@ function PopularityItem(){
         </div>
       </div>
     </>
-    )
+  );
 }
-export default PopularityItem;
+
+export default NatureItems;
