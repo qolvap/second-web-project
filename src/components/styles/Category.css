@@ -25,14 +25,14 @@
     text-align: center;
 }
 
-.cat--back--to--home--page{
+.back--to--btn{
     color: #000;
     font-size: 1.6rem;
     text-align: left;
     text-decoration: none;
 }
 
-.cat--back--to--home--page:hover{
+.back--to--btn:hover{
     color:#a7bcb9;
 }
 

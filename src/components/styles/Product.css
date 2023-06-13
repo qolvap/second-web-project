@@ -41,7 +41,64 @@
     margin-top: 0.5rem;
   }
   
+  
+
+  .counter {
+    border: 1px solid #000;
+    display: flex;
+    
+}
+
+.counter > button {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 3rem;
+  height: 5.5rem;
+  transition: all .2s;
+  width: 5.5rem;
+
+    
+}
+
+.counter > button:hover {
+    background-color: #1a2639;
+    color: #D9D9D9;
+}
+
+.counter > button:focus {
+    outline: none;
+}
+
+.counter--count {
+  height: 5rem;
+  outline-offset: -2px;
+  padding-top: 10px;
+  text-align: center;
+  width: 6rem;
+  
+}
 
 
 
+.add--to--card{
+    background-color: #596e79;
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    
+    padding: 1rem;
+    text-transform: uppercase;
+    transition: all .15s;
+    text-decoration: none;
+}
+
+.add--to--card:hover{
+  background-color: whitesmoke;
+  border: 2px solid #000;
+  color: #596e79;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+}
 
