@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import categoriesItems from "../categoriesItems";
 
-
 function PopularityItem(){ 
     const filteredItems = categoriesItems.filter((item) => item.pupularity === true)
     return (

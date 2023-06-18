@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 import "./styles/Navigbar.css"
 
-export default function Navbar() { 
+export default function Navbar({ cartItems }) { 
     return (
         <nav>
             <a href="/" classNamme="logo">logo</a>
@@ -22,10 +22,12 @@ export default function Navbar() {
         </li>
 
           <li>
-          <Link to="/Careers" className="nav--sect">
-            Careers
+          <Link to="/Card" className="nav--sect">
+            Cart
+            <span>{cartItems.length}</span>
           </Link>
         </li>
+        
       </ul>
     </nav>
   );
