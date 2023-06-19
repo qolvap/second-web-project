@@ -115,3 +115,40 @@
 .count--number{
   margin: 0 auto;
 }
+
+.categories--section--empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.categories--head--empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty--card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.back--to--shop {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.back--to--shop:hover{
+  color:#a7bcb9;
+}
+
+.back--to--shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #000;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
