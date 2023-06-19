@@ -1,4 +1,4 @@
-.product--container {
+  .product--container {
     padding: 4rem;
   }
   
@@ -9,6 +9,10 @@
     width: 100%;
     justify-content: space-between;
     overflow: hidden;
+  }
+
+  .product-header{
+    font-size: 3.5rem;
   }
   
   .productCard {
@@ -39,48 +43,54 @@
   
   .item-price {
     margin-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .item--describtion{
+    font-size: 1.5rem;
+    font-weight: 600;
   }
   
-  
-
   .counter {
     border: 1px solid #000;
     display: flex;
     
-}
+  }
 
-.counter > button {
-  background-color: #fff;
-  border: none;
-  color: #000;
-  cursor: pointer;
-  font-size: 3rem;
-  height: 5.5rem;
-  transition: all .2s;
-  width: 5.5rem;
+  .counter > button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 3rem;
+    height: 5.5rem;
+    transition: all .2s;
+    width: 5.5rem;
+  }
 
-    
-}
-
-.counter > button:hover {
+  .counter > button:hover {
     background-color: #1a2639;
     color: #D9D9D9;
-}
+  }
 
-.counter > button:focus {
+  .counter > button:focus {
     outline: none;
-}
+  }
 
-.counter--count {
-  height: 5rem;
-  outline-offset: -2px;
-  padding-top: 10px;
-  text-align: center;
-  width: 6rem;
+  .counter--count {
+    height: 5rem;
+    outline-offset: -2px;
+    padding-top: 10px;
+    text-align: center;
+    width: 6rem;
   
-}
-
-
+  }
 
 .add--to--card{
     background-color: #596e79;
@@ -102,3 +112,6 @@
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
 }
 
+.count--number{
+  margin: 0 auto;
+}

@@ -51,7 +51,7 @@ function ProductPage({ cartItems, setCartItems }) {
                 </div>
                 <div className="product--right--side">
                   <div className="product-details">
-                    <p>{product.type}</p>
+                    <p className="item--describtion">{product.type}</p>
                     <p className="item-price">{product.price}€</p>
                   </div>
                   <div className="counter">
@@ -59,7 +59,7 @@ function ProductPage({ cartItems, setCartItems }) {
                       -
                     </button>
                     <div className="counter--count">
-                      <h1>{count}</h1>
+                      <h1 className="count--number">{count}</h1>
                     </div>
                     <button className="counter--plus" onClick={add}>
                       +
