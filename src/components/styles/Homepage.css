@@ -29,6 +29,9 @@
     cursor: pointer;
     outline: 2px solid rgba(0,0,0,.205);
     transition: all .15s ease-in;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
 }
 
 .content-card:hover{
@@ -37,11 +40,13 @@
 }
 
 .card--description{
-    bottom: 8px;
-    color: black;
-    font-size: 3.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 3rem;
     font-weight: 600;
-    left: 16px;
 }
 
 .banner{
@@ -217,4 +222,9 @@ margin-bottom: 2rem;
     font-size: 2rem;
   }
 
+  .home--container--grid--img{
+    height: 400px;
+    width: 280px;
+    flex-basis: 230px;
+  }
  

@@ -1,6 +1,9 @@
+import AbstractPic from "./Pictures/AbstractHome.png";
+
 const categoriesItems = [
     {
       id: 1,
+      picture: {AbstractPic},
       name: "Name",
       price: "100",
       type: "abstract",
@@ -22,7 +25,7 @@ const categoriesItems = [
     },
     {
       id: 4,
-      picture: require('./Pictures/Architect.png').default,
+      picture: require('./Pictures/ArchitectHome.png').default,
       name: "Name",
       price: "100",
       type: "architect",

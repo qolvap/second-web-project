@@ -4,6 +4,12 @@ import  "./categoriesItems";
 import { Link } from "react-router-dom";
 import "./styles/Homepage.css";
 
+import AbstractPic from "./Pictures/AbstractHome.png";
+import StreetPic from "./Pictures/StreetHome.png";
+import NaturePic from "./Pictures/NatureHome.png";
+import ArchitectPic from "./Pictures/ArchitectHome.png";
+
+
 function Home() {
 
     return (
@@ -13,6 +19,8 @@ function Home() {
           <div className="home--container--grid--one">
             <Link to="/Categories/Abstract">
             <div className="content-card">
+            <img className="home--container--grid--img" src={AbstractPic} alt="place" />
+            
               <p className="card--description">Abstract</p>
             </div>
             </Link>
@@ -20,6 +28,8 @@ function Home() {
           <div className="home--container--grid--two">
           <Link to="/Categories/Street">
             <div className="content-card">
+            <img className="home--container--grid--img" src={StreetPic} alt="place" />
+            
               <p className="card--description">Street</p>
             </div>
             </Link>
@@ -27,6 +37,7 @@ function Home() {
           <div className="home--container--grid--three">
           <Link to="/Categories/Nature">
             <div className="content-card">
+            <img className="home--container--grid--img" src={NaturePic} alt="place" />
               <p className="card--description">Nature</p>
             </div>
             </Link>
@@ -35,7 +46,7 @@ function Home() {
           <Link to="/Categories/Architect">
             <div className="content-card">
             
-              <img src="/Pictures/Architect.png" alt="place" />
+            <img className="home--container--grid--img" src={ArchitectPic} alt="place" />
             
               <p className="card--description">Architect</p>
               
