@@ -22,6 +22,7 @@ const categoriesItems = [
     },
     {
       id: 4,
+      picture: require('./Pictures/Architect.png').default,
       name: "Name",
       price: "100",
       type: "architect",

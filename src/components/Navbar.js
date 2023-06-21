@@ -23,8 +23,8 @@ export default function Navbar({ cartItems }) {
 
           <li>
           <Link to="/Card" className="nav--sect">
-            Cart
-            <span>{cartItems.length}</span>
+            Cart 
+            <span> {cartItems.length}</span>
           </Link>
         </li>
         

@@ -1,6 +1,6 @@
 import React from "react";
 import popularItems from "./popularItems";
-import categoriesItems from "./categoriesItems";
+import  "./categoriesItems";
 import { Link } from "react-router-dom";
 import "./styles/Homepage.css";
 
@@ -34,7 +34,11 @@ function Home() {
           <div className="home--container--grid--four">
           <Link to="/Categories/Architect">
             <div className="content-card">
+            
+              <img src="/Pictures/Architect.png" alt="place" />
+            
               <p className="card--description">Architect</p>
+              
             </div>
             </Link>
           </div>
@@ -68,6 +72,7 @@ function Home() {
                   <Link key={item.id} to={`/product/${item.id}`} >
                   <div  className="popular--item">
                     <div className="product-header">
+                 
                       <span>{item.name}</span>
                     </div>
                     <div className="product-details">

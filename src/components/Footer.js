@@ -1,5 +1,5 @@
 import React from "react"
-import Foot from "./styles/Foot.css"
+import "./styles/Foot.css"
 
 function Footer() {
     return (
@@ -17,7 +17,7 @@ function Footer() {
                     </div>
        
                 <div className="foot">
-                    <h1>Foot</h1>
+                    
                     <div className="foot--container">
                     
                         <div className="row">
