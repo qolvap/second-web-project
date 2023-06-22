@@ -1,10 +1,15 @@
 import React from "react"
 import "./styles/Inspo.css"
 
+import Studio from "./Pictures/studio.png";
+import Kitchen from "./Pictures/kitchen.png";
+import HomeOffice from "./Pictures/homeoffice.png";
+import Bedroom from "./Pictures/bedroom.png";
+
 function Inspiration() {
     return (
         <div className="inspiration--section">
-            <h1>Inspiration</h1>
+           
 
 
             <div className="banners--inspiration">
@@ -19,7 +24,7 @@ function Inspiration() {
                 </div>
               </div>
               <div className="img--column--one">
-                <p>img goes here</p>
+                <img className="inso--img" src={Studio} alt="living room"/>
               </div>
             </div>
           </div>
@@ -30,7 +35,7 @@ function Inspiration() {
             <div className="inspo--banner--container">
 
             <div className="img--column--two">
-                <p>img goes here</p>
+            <img className="inso--img" src={Bedroom} alt="bedroom"/>
               </div>
 
               <div className="text--column--two">
@@ -58,7 +63,7 @@ function Inspiration() {
                 </div>
               </div>
               <div className="img--column--three">
-                <p>img goes here</p>
+              <img className="inso--img" src={Kitchen} alt="kitchen"/>
               </div>
             </div>
           </div>
@@ -69,7 +74,7 @@ function Inspiration() {
             <div className="inspo--banner--container">
 
             <div className="img--column--four">
-                <p>img goes here</p>
+                 <img className="inso--img" src={HomeOffice} alt="homeoffice"/>
               </div>
 
               <div className="text--column--four">

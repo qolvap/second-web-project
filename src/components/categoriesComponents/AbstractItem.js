@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState }  from "react";
 import { Link } from "react-router-dom";
 import categoriesItems from "../categoriesItems";
 
 function AbstractItem() {
   const filteredItems = categoriesItems.filter((item) => item.type === "abstract");
+  const [hoveredItemId, setHoveredItemId] = useState(null);
+  const handleMouseOver = (itemId) => {
+    setHoveredItemId(itemId);
+  };
+
+  const handleMouseOut = () => {
+    setHoveredItemId(null);
+  };
 
   return (
     <>
@@ -13,12 +21,19 @@ function AbstractItem() {
             {filteredItems.map((item) => (
               <Link key={item.id} to={`/product/${item.id}`} className="product-link">
               <div key={item.id} className="product">
-                <div className="product-header">
-                  <span>{item.name}</span>
-                </div>
                 <div className="product-details">
-                <img className="item-img" src={item.picture} alt="img"></img>
-                  <p className="item-price">{item.price}</p>
+                <div
+                    onMouseOver={() => handleMouseOver(item.id)}
+                    onMouseOut={handleMouseOut}
+                  >
+                    <img className="item-img" src={item.picture} alt="img"></img>
+                  </div>
+                  {hoveredItemId === item.id && (
+                    <div className="product-header">
+                    <h2 className="item-name">{item.name}</h2>
+                    <p className="item-price">{item.price} €</p>
+                  </div>
+                  )}
                 </div>
               </div>
               </Link>

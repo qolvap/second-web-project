@@ -11,7 +11,7 @@
     overflow: hidden;
   }
 
-  .product-header{
+  .card--header{
     font-size: 1rem;
   }
   
@@ -163,6 +163,11 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 }
 
 .cart-item{
@@ -200,5 +205,6 @@
 
 .product-img{
   height: 100%;
-  width: 350px;
+  width: 370px;
+  
 }

@@ -22,127 +22,142 @@ const categoriesItems = [
     {
       id: 1,
       picture: AbstractPic,
-      name: "Name",
+      name: "Sudden reflection",
       price: "100",
       type: "abstract",
+      describtion: "Wooden frame 60x90",
       pupularity: true
     },
     {
       id: 2,
       picture: StreetPic,
-      name: "Name",
+      name: "Man in black",
       price: "150",
       type: "street",
+      describtion: "Wooden dark frame 30x40",
       pupularity: true
     },
     {
       id: 3,
       picture: NaturePic,
-      name: "Name",
+      name: "The tree",
       price: "80",
       type: "nature",
+      describtion: "Wooden white frame 30x40",
       pupularity: true
     },
   
     {
       id: 5,
       picture: Abstract1,
-      name: "Name",
+      name: "Passing reflection",
       price: "200",
       type: "abstract",
+      describtion: "Wooden dark frame 60x90",
       pupularity: true
     },
     {
       id: 6,
       picture: Street1,
-      name: "Name",
+      name: "Amsterdam",
       price: "200",
       type: "street",
+      describtion: "Wooden white frame 30x40",
       pupularity: true
     }
     ,
     {
       id: 7,
       picture: Nature1,
-      name: "Name",
+      name: "Swimming woods",
       price: "150",
       type: "nature",
+      describtion: "Wooden dark frame 30x40",
       pupularity: false
     }
     ,
     {
       id: 9,
       picture: Abstract2,
-      name: "Name",
+      name: "Life color colage",
       price: "50",
       type: "abstract",
+      describtion: "Wooden white frame 60x90",
       pupularity: false
     }
     ,
     {
       id: 10,
       picture: Street2,
-      name: "Name",
+      name: "Berlin bahn",
       price: "85",
       type: "street",
+      describtion: "Wooden dark frame 30x40",
       pupularity: false
     },
     {
       id: 11,
       picture: Nature2,
-      name: "Name",
+      name: "Couple & trees",
       price: "100",
       type: "nature",
+      describtion: "Wooden white frame 30x40",
       pupularity: false
     },
     
     {
       id: 13,
       picture: Abstract3,
-      name: "Name",
+      name: "Sea siluate",
       price: "120",
       type: "abstract",
+      describtion: "Wooden dark frame 60x90",
       pupularity: false
     },
     {
       id: 14,
       picture: Street3,
-      name: "Name",
+      name: "Groningen bikes",
       price: "250",
       type: "street",
+      describtion: "Wooden white frame 30x40",
       pupularity: false
     },
     {
       id: 15,
       picture: Nature3,
-      name: "Name",
+      name: "Risen flowers",
       price: "30",
       type: "nature",
+      describtion: "Wooden dark frame 30x40",
       pupularity: false
     },
     
     {
       id: 17,
       picture: Abstract4,
-      name: "Name",
+      name: "Who let the plants in?",
       price: "80",
       type: "abstract",
+      describtion: "Wooden white frame 60x90",
       pupularity: false
     },
     {
       id: 18,
       picture: Street4,
-      name: "Name",
+      name: "City cyclist",
       price: "40",
       type: "street",
+      describtion: "Wooden dark frame 30x40",
       pupularity: false
     },
     {
       id: 19,
       picture: Nature4,
-      name: "Name",
+      name: "Tatra landscape",
       price: "80",
       type: "nature",
+      describtion: "Wooden white frame 60x90",
       pupularity: false
     }
   ];

@@ -49,10 +49,10 @@ function ProductPage({ cartItems, setCartItems }) {
                 </div>
                 <div className="product--right--side">
                   <div className="product-details">
-                  <div className="product-header">
-                    <h2>{product.name}</h2>
+                  <div className="card--header">
+                    <h2 className="product-name">{product.name}</h2>
                   </div>
-                    <p className="item--describtion">{product.type}</p>
+                    <p className="item--describtion">{product.describtion}</p>
                     <p className="item-price">{product.price}€</p>
                   </div>
                   <div className="counter">

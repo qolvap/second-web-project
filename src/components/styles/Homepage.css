@@ -131,9 +131,9 @@ margin-bottom: 2rem;
 
 .popular--items--list {
     display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
    
 }
 
@@ -162,6 +162,12 @@ margin-bottom: 2rem;
     cursor: pointer;
     outline: 2px solid rgba(0,0,0,.205);
     transition: all .15s ease-in;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
   }
 
   .popular--item:hover{
@@ -226,5 +232,10 @@ margin-bottom: 2rem;
     height: 400px;
     width: 280px;
     flex-basis: 230px;
+  }
+
+  .item-image{
+    max-width: 100%;
+    max-height: 100%;
   }
  

@@ -9,13 +9,15 @@ import StreetPic from "./Pictures/StreetHome.png";
 import NaturePic from "./Pictures/NatureHome.png";
 import ArchitectPic from "./Pictures/ArchitectHome.png";
 
-
+import Studio from "./Pictures/studio.png";
+import Kitchen from "./Pictures/kitchen.png";
 
 
 function Home() {
 
     return (
     <div className="homepage--section">
+      
       <div className="home--container">
         <div className="home--container--grid">
           <div className="home--container--grid--one">
@@ -71,7 +73,7 @@ function Home() {
                 </div>
               </div>
               <div className="img--column">
-                <p>img goes here</p>
+              <img className="inso--img" src={Studio} alt="living room"/>
               </div>
             </div>
           </div>
@@ -84,13 +86,10 @@ function Home() {
                 {popularItems.map((item) => (
                   <Link key={item.id} to={`/product/${item.id}`} >
                   <div  className="popular--item">
-                    <div className="product-header">
-                 
-                      <span>{item.name}</span>
-                    </div>
+                    
                     <div className="product-details">
                     <img className="item-img" src={item.picture} alt="img"></img>
-                      <p className="item-price">{item.price}</p>
+                     
                   </div>
                 </div>
                 </Link>
@@ -104,7 +103,7 @@ function Home() {
             <div className="new-banner--container">
 
             <div className="new-img--column">
-                <p>img goes here</p>
+            <img className="inso--img" src={Kitchen} alt="kitchen"/>
               </div>
 
               <div className="new-text--column">
