@@ -102,3 +102,9 @@
     font-size: 15px;
  
 }
+
+.item-img{
+    height: 200px;
+    width: 180px;
+    flex-basis: 130px;
+}

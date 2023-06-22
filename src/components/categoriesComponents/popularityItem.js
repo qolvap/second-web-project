@@ -16,6 +16,7 @@ function PopularityItem(){
                   <span>{item.name}</span>
                 </div>
                 <div className="product-details">
+                <img className="item-img" src={item.picture} alt="img"></img>
                   <p className="item-price">{item.price}</p>
                 </div>
               </div>

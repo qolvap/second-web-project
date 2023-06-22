@@ -45,12 +45,13 @@ function ProductPage({ cartItems, setCartItems }) {
             {product && (
               <div key={product.id} className="productCard">
                 <div className="product--left--side">
-                  <div className="product-header">
-                    <h2>{product.name}</h2>
-                  </div>
+                <img className="product-img" src={product.picture} alt="img"></img>
                 </div>
                 <div className="product--right--side">
                   <div className="product-details">
+                  <div className="product-header">
+                    <h2>{product.name}</h2>
+                  </div>
                     <p className="item--describtion">{product.type}</p>
                     <p className="item-price">{product.price}€</p>
                   </div>

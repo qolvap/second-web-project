@@ -10,6 +10,8 @@ import NaturePic from "./Pictures/NatureHome.png";
 import ArchitectPic from "./Pictures/ArchitectHome.png";
 
 
+
+
 function Home() {
 
     return (
@@ -87,6 +89,7 @@ function Home() {
                       <span>{item.name}</span>
                     </div>
                     <div className="product-details">
+                    <img className="item-img" src={item.picture} alt="img"></img>
                       <p className="item-price">{item.price}</p>
                   </div>
                 </div>

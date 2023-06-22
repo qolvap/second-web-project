@@ -24,7 +24,6 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px; 
 }
 
 .banner--btn--inspo{
@@ -50,7 +49,7 @@
 }
 
 .img--column--one{
-    width: 50%;
+     width: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
