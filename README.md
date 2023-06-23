@@ -1,3 +1,4 @@
+<img width="1440" alt="Screenshot 2023-06-23 at 21 36 10" src="https://github.com/qolvap/second-web-project/assets/125763359/b4b4bd23-71a5-4e40-a39b-b40b0973a825">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -22,6 +23,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
