@@ -1,3 +1,10 @@
+<img width="1440" alt="Screenshot 2023-06-23 at 21 36 10" src="https://github.com/qolvap/second-web-project/assets/125763359/b4b4bd23-71a5-4e40-a39b-b40b0973a825">
+<img width="1440" alt="Screenshot 2023-06-23 at 21 36 36" src="https://github.com/qolvap/second-web-project/assets/125763359/e4fd09db-8abd-41d4-8e21-887fcea40ae5">
+<img width="1440" alt="Screenshot 2023-06-23 at 21 36 54" src="https://github.com/qolvap/second-web-project/assets/125763359/e7276e5d-bf86-4b5d-b482-010aaefb55a8">
+<img width="1440" alt="Screenshot 2023-06-23 at 21 37 04" src="https://github.com/qolvap/second-web-project/assets/125763359/89da7300-4079-44ab-a970-1c341cc7614f">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -16,12 +23,17 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run build
+
+[Uploading Screenshot 2023-06-23 at 21.37.04.png…]()
+
 
 Builds the app for production to the `build` folder.\
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
