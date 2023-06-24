@@ -124,12 +124,15 @@ function Home() {
 
 
         <div className="about--statistics">
-
+                    <div className="statistics--text">
           <h4>We are here to make you feel yourself at home</h4>
+          </div>
+          
             <div className="about--statistics--one">
               <h4>Free</h4>
               <p>worldwide delivery</p>
             </div>
+           
             <div className="about--statistics--two">
             <h4>180 days</h4>
               <p>free returns</p>

@@ -21,7 +21,7 @@
 }
 
 .banner--text--one{
-    text-align: center;
+    text-align: start;
     margin: 0;
     padding: 0;
 }
@@ -31,8 +31,8 @@
     border: 2px solid #000;
     color: #fff;
     cursor: pointer;
-    font-size: 1.7rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 400;
     margin-top: 2rem;
     padding: 1rem;
     text-transform: uppercase;
@@ -43,13 +43,13 @@
 
 .banner--btn--inspo:hover{
     background-color: whitesmoke;
-    border: 2px solid #000;
+    border: 2px  #000;
     color: #596e79;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
 }
 
 .img--column--one{
-     width: 50%;
+      width: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -115,5 +115,38 @@
 
 .inso--img{
     height: 100%;
-    width: 720px;
+    width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+   
+    .img--column--one,
+    .img--column--two,
+    .img--column--three,
+    .img--column--four {
+        flex-basis: 50%;
+        height: 100%;
+    }
+  
+    .inspo--banner--container {
+      
+      height: auto;
+      display: flex;
+      align-items: center;
+    }
+  
+    .banner--text--one,
+    .banner--text--two,
+    .banner--text--three,
+    .banner--text--four {
+      
+      height: 100%;
+      text-align: center;
+    }
+  
+    .inso--img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  

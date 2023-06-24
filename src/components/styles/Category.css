@@ -74,7 +74,7 @@
     grid-gap: 2rem;
     display: grid;
     gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .comimgsoon--section {
@@ -143,4 +143,12 @@
     font-size: 1.5rem;
   }
   
+  @media (max-width: 767px) {
+    .all--items{
+        grid-gap: 2rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
   
