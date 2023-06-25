@@ -1,10 +1,3 @@
-<img width="1440" alt="Screenshot 2023-06-23 at 21 36 10" src="https://github.com/qolvap/second-web-project/assets/125763359/b4b4bd23-71a5-4e40-a39b-b40b0973a825">
-<img width="1440" alt="Screenshot 2023-06-23 at 21 36 36" src="https://github.com/qolvap/second-web-project/assets/125763359/e4fd09db-8abd-41d4-8e21-887fcea40ae5">
-<img width="1440" alt="Screenshot 2023-06-23 at 21 36 54" src="https://github.com/qolvap/second-web-project/assets/125763359/e7276e5d-bf86-4b5d-b482-010aaefb55a8">
-<img width="1440" alt="Screenshot 2023-06-23 at 21 37 04" src="https://github.com/qolvap/second-web-project/assets/125763359/89da7300-4079-44ab-a970-1c341cc7614f">
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
