@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/second-web-project/static/css/main.aa385e6b.css",
-    "main.js": "/second-web-project/static/js/main.4a994ded.js",
+    "main.css": "/second-web-project/static/css/main.13e1fac6.css",
+    "main.js": "/second-web-project/static/js/main.6cf0c389.js",
     "static/js/787.3698b4d9.chunk.js": "/second-web-project/static/js/787.3698b4d9.chunk.js",
     "static/media/Street3.png": "/second-web-project/static/media/Street3.e673c0f35787a6c88dbc.png",
     "static/media/Nature2.png": "/second-web-project/static/media/Nature2.9883fec9834e217c3627.png",
@@ -25,12 +25,12 @@
     "static/media/Abstract3.png": "/second-web-project/static/media/Abstract3.309ec2899d111fbe14cf.png",
     "static/media/buy.png": "/second-web-project/static/media/buy.5238e225674825454358.png",
     "index.html": "/second-web-project/index.html",
-    "main.aa385e6b.css.map": "/second-web-project/static/css/main.aa385e6b.css.map",
-    "main.4a994ded.js.map": "/second-web-project/static/js/main.4a994ded.js.map",
+    "main.13e1fac6.css.map": "/second-web-project/static/css/main.13e1fac6.css.map",
+    "main.6cf0c389.js.map": "/second-web-project/static/js/main.6cf0c389.js.map",
     "787.3698b4d9.chunk.js.map": "/second-web-project/static/js/787.3698b4d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa385e6b.css",
-    "static/js/main.4a994ded.js"
+    "static/css/main.13e1fac6.css",
+    "static/js/main.6cf0c389.js"
   ]
 }
