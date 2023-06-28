@@ -14,24 +14,18 @@ import Street from "./components/categoriesComponents/Street";
 import Architect from "./components/categoriesComponents/Architect";
 import Popular from "./components/categoriesComponents/Popular";
 
-function HomePage() {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
-}
 
 export default function App() {
   const [cartItems, setCartItems] = React.useState([]);
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar cartItems={cartItems} />
         {/* ---- BODY START ----- */}
         <Routes>
-          <Route path="/" element={<HomePage />} />
+        
+          <Route path="/" element={<Home />}/>
           <Route path="/Inspiration" element={<Inspiration />} exact />
           <Route path="/Categories" element={<Categories />} exact />
           <Route path="/Card" element={<Card cartItems={cartItems} setCartItems={setCartItems}  />} exact />

@@ -1,6 +1,6 @@
-import React from "react"
-import "./styles/Inspo.css"
-
+import React from "react";
+import "./styles/Inspo.css";
+import {Link} from "react-router-dom";
 import Studio from "./Pictures/studio.png";
 import Kitchen from "./Pictures/kitchen.png";
 import HomeOffice from "./Pictures/homeoffice.png";
@@ -20,7 +20,9 @@ function Inspiration() {
                   <h2>Living room</h2>
                   <p>Fill your living room with prints that proudly match the sharm of the space</p>
                   <br></br>
-                  <a className="banner--btn--inspo" href="/Categories">Learn more</a>
+                  <Link className="link" to="/Categories" >
+                  <li className="banner--btn--inspo" >Learn more</li>
+                  </Link>
                 </div>
               </div>
               <div className="img--column--one">
@@ -43,7 +45,9 @@ function Inspiration() {
                   <h2>Bedroom</h2>
                   <p>Complement your sleep chamber with the matching print</p>
                   <br></br>
-                  <a className="banner--btn--inspo" href="/Categories">Learn more</a>
+                  <Link className="link" to="/Categories" >
+                  <li className="banner--btn--inspo" >Learn more</li>
+                  </Link>
                 </div>
               </div>
              
@@ -59,7 +63,9 @@ function Inspiration() {
                   <h2>Kitchen</h2>
                   <p>The place where the magic happens can be accompaniment with the beautiful attachments</p>
                   <br></br>
-                  <a className="banner--btn--inspo" href="/Categories">Learn more</a>
+                  <Link className="link" to="/Categories" >
+                  <li className="banner--btn--inspo" >Learn more</li>
+                  </Link>
                 </div>
               </div>
               <div className="img--column--three">
@@ -82,7 +88,9 @@ function Inspiration() {
                   <h2>Studio office</h2>
                   <p>Equip your workspace with the prints which will keep you focused</p>
                   <br></br>
-                  <a className="banner--btn--inspo" href="/Categories">Learn more</a>
+                  <Link className="link" to="/Categories" >
+                  <li className="banner--btn--inspo" >Learn more</li>
+                  </Link>
                 </div>
               </div>
              

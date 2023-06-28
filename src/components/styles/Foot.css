@@ -70,6 +70,7 @@ cursor: pointer;
 
 .foot--nav {
   text-decoration: none;
+  list-style: none;
   color: #fff;
 }
 

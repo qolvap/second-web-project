@@ -1,14 +1,15 @@
 import React from "react";
 import StreetItems from "./StreetItems";
+import { Link } from "react-router-dom";
 
 function Street() {
   return (
     <>
       <div className="categories--section">
       <div className="categories--head">
-        <a className="back--to--btn" href="/">
-          Home
-        </a>
+      <Link className="link" to="/" >
+                  <li className="back--to--btn" >Home</li>
+                  </Link>
         <h1 className="categories--title">Street</h1>
       </div>
       <StreetItems/>

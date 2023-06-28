@@ -1,5 +1,7 @@
-import React from "react"
-import "./styles/Foot.css"
+import React from "react";
+import "./styles/Foot.css";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
@@ -23,25 +25,37 @@ function Footer() {
                         <div className="row">
 
                         <div className="column" >
-                        <a className="foot--nav"  href="/">On top</a>
                         
+                         
+                        <Link className="link" to="/" >
+                  <li className="foot--nav">Home</li>
+                  </Link>
                        
                         </div>
                         <div className="column">
                            
-                        <a className="foot--nav"  href="/Inspiration">Inspiration</a>
+                         
+                        <Link className="link" to="/Inspiration" >
+                  <li className="foot--nav">Inspiration</li>
+                  </Link>
                       
                        </div>
                         <div className="column">
                        
-                        <a className="foot--nav" href="/Categories">Categories</a>
+                         
+                        <Link className="link" to="/Categories" >
+                  <li className="foot--nav">Categories</li>
+                  </Link>
                             
                        
                         </div>
 
                         <div className="column">
                            
-                            <p>Contact</p>
+                             
+                        <Link className="link" to="/" >
+                  <li className="foot--nav">Contact</li>
+                  </Link>
                        
                         </div>
                     </div>    

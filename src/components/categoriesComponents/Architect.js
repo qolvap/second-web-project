@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Category.css";
+import { Link } from "react-router-dom";
 
 function Architect() {
   return (
@@ -9,9 +10,9 @@ function Architect() {
 
       <div className="categories--section">
           <div className="categories--head">
-            <a className="back--to--btn" href="/">
-              Home
-            </a>
+          <Link className="link" to="/" >
+                  <li className="back--to--btn" >Home</li>
+                  </Link>
             <h1 className="categories--title">Architect</h1>
           </div>
           <div className="comimgsoon--section">

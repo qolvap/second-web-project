@@ -1,6 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom"
-import "./styles/Navigbar.css"
+import {Link} from "react-router-dom";
+import "./styles/Navigbar.css";
 
 import Logo from "./Pictures/logoF.png";
 import Buy from "./Pictures/buy.png";

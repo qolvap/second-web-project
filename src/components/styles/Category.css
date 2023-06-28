@@ -30,6 +30,7 @@
     font-size: 1.6rem;
     text-align: left;
     text-decoration: none;
+    list-style: none;
 }
 
 .back--to--btn:hover{

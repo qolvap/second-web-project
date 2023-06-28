@@ -69,7 +69,9 @@ function Home() {
                   <h2>See all products</h2>
                   <p>Big variety of all kind of prints</p>
                   <br></br>
-                  <a className="banner--btn" href="/Categories">Learn more</a>
+                  <Link className="link" to="/Categories" >
+                  <li className="banner--btn--inspo" >Learn more</li>
+                  </Link>
                 </div>
               </div>
               <div className="img--column">
@@ -111,7 +113,9 @@ function Home() {
                   <h2>Enhance your own space</h2>
                   <p>Suit each room with print that fits exactly right</p>
                   <br></br>
-                  <a className="banner--btn" href="/Inspiration">Discover more</a>
+                  <Link className="link" to="/Categories" >
+                  <li className="banner--btn--inspo" >Learn more</li>
+                  </Link>
                 </div>
               </div>
             
